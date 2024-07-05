@@ -22,7 +22,11 @@ public class EmployeeDetails {
     };
 
     public static void main(String[] args) {
-        System.out.println(empTable.length);
-        //for(int i=0;i<)
+        String[] empid = new String[empTable.length];
+        for(int i=0;i<empTable.length;i++)
+        {
+                empid[i] = empTable[i][0];
+        }
+        
     }
 }
