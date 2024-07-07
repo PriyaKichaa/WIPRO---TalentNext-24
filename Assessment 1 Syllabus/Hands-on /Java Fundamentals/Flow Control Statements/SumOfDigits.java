@@ -6,7 +6,6 @@ Example1) I/P:1234
 O/P:10
 */
 
-
 public class SumOfDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
