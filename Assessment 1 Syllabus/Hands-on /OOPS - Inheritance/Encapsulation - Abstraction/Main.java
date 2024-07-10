@@ -12,7 +12,7 @@ public class Main{
         double price = sc.nextDouble();
         sc.nextLine(); // Consume the newline character
         System.out.println("Enter author name: ");
-        String authorname = sc.nextLine();
+        String authorname = sc.nextLine();3
         System.out.println("Enter email: ");
         String email = sc.nextLine();
         System.out.println("Enter gender: ");
