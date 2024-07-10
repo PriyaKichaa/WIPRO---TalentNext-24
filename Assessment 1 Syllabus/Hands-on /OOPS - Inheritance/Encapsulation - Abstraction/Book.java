@@ -41,4 +41,14 @@ public class Book extends Author{
     public int getQtyInStock() {
         return qtyInStock;
     }
+
+    public void display(){
+        System.out.println("Book Name: "+getName());
+        System.out.println("Author Name: "+author.getName());
+        System.out.println("Author Email: "+author.getEmail());
+        System.out.println("Author gender: "+author.gender);
+        System.out.println("Price: "+getPrice());
+        System.out.println("Quantity: "+getQtyInStock());
+
+    }
 }
