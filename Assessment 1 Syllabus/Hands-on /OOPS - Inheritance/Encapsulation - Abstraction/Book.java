@@ -1,13 +1,15 @@
-public class Book extends Author{
+public class Book extends Author {
     private String name;
     private Author author;
     private double price;
     private int qtyInStock;
 
-    public Book(String name, Author author, double price) {
+    public Book(String name, Author author, double price, int qtyInStock) {
+        super(author.aname, author.email, author.gender);
         this.name = name;
         this.author = author;
         this.price = price;
+        this.qtyInStock = qtyInStock;
     }
 
     public void setName(String name) {
@@ -42,13 +44,13 @@ public class Book extends Author{
         return qtyInStock;
     }
 
-    public void display(){
-        System.out.println("Book Name: "+getName());
-        System.out.println("Author Name: "+author.getName());
-        System.out.println("Author Email: "+author.getEmail());
-        System.out.println("Author gender: "+author.gender);
-        System.out.println("Price: "+getPrice());
-        System.out.println("Quantity: "+getQtyInStock());
+    public void displaydetails() {
+        System.out.println("Book Name: " + getName());
+        System.out.println("Author Name: " + getAuthor().aname);
+        System.out.println("Author Email: " + getAuthor().email);
+        System.out.println("Author gender: " + getAuthor().gender);
+        System.out.println("Price: " + getPrice());
+        System.out.println("Quantity: " + getQtyInStock());
 
     }
 }

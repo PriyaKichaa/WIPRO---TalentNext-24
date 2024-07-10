@@ -1,11 +1,10 @@
-
-public class Author{
-    String name;
+public class Author {
+    String aname;
     String email;
     char gender;
 
-    public Author(String name, String email, char gender){
-        this.name = name;
+    public Author(String aname, String email, char gender ){
+        this.aname = aname;
         this.email = email;
         this.gender = gender;
     }
