@@ -56,8 +56,8 @@ public class EmployeeDetails {
                             System.out.println("EmpNo EmpName Department Designation Salary");
                             System.out.println(id + " " + name + " " + Department + " " + Designation + " " + Salary);
 
-                            flag = true; // Set flag to true since employee ID is found
-                            break; // No need to iterate further for this employee ID
+                            flag = true; 
+                            break; 
                         }
                     }
                 }
