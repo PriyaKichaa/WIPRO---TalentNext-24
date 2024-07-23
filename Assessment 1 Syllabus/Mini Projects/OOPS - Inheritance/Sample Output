@@ -1,0 +1,92 @@
+SAMPLE OUTPUT:
+
+MAIN MENU
+=========
+1.Add Videos:
+2. Check Out Video :
+3. Return Video :
+4. Receive Rating :
+5. List Inventory :
+6. Exit :
+Enter your choice (1 .. 6) : 1
+
+Enter the name of the video you want to add: Matrix
+Video "Matrix" added successfully.
+
+MAIN MENU
+=========
+1.Add Videos:
+2. Check Out Video :
+3. Return Video :
+4. Receive Rating :
+5. List Inventory :
+6. Exit :
+Enter your choice (1 .. 6): 4
+
+Enter the name of the video you want to Rate: Matrix
+Enter the rating for this video: 9
+Rating "9" has been mapped to the Video "Matrix".
+
+MAIN MENU
+=========
+1.Add Videos:
+2. Check Out Video :
+3. Return Video :
+4. Receive Rating :
+5. List Inventory :
+6. Exit :
+Enter your choice (1 .. 6): 2
+Enter the name of the video you want to check out: Matrix
+Video "Matrix" checked out successfully.
+
+MAIN MENU
+=========
+1.Add Videos:
+2. Check Out Video :
+3. Return Video :
+4. Receive Rating :
+5. List Inventory :
+6. Exit :
+Enter your choice (1 .. 6): 5
+-------------------------------------------------
+Video Name   |    Checkout    |    Status Rating
+Matrix       |    true        |    9
+-------------------------------------------------
+
+MAIN MENU
+=========
+1.Add Videos:
+2. Check Out Video :
+3. Return Video :
+4. Receive Rating :
+5. List Inventory :
+6. Exit :
+Enter your choice (1 .. 6): 3
+Enter the name of the video you want to Return: Matrix
+Video "Matrix" returned successfully.
+
+MAIN MENU
+=========
+1.Add Videos:
+2. Check Out Video :
+3. Return Video :
+4. Receive Rating :
+5. List Inventory :
+6. Exit :
+Enter your choice (1 .. 6): 5
+
+-------------------------------------------------
+Video Name   |    Checkout     |    Status Rating
+Matrix       |    false        |    9
+-------------------------------------------------
+
+MAIN MENU
+=========
+1.Add Videos:
+2. Check Out Video :
+3. Return Video :
+4. Receive Rating :
+5. List Inventory :
+6. Exit :
+Enter your choice (1 .. 6): 6
+Exiting ...!! Thanks for using the application.
